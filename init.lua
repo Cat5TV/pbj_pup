@@ -71,6 +71,7 @@ minetest.register_craft({
 })
 
 -- Place Nyan or Pup with Rainbow
+--[[
 function place(pos, facedir, length)
 
 	if facedir > 3 then
@@ -123,6 +124,7 @@ if minetest.setting_getbool("pbj_pup_generate") ~= false then
 
 	minetest.register_on_generated(generate)
 end
+]]--
 
 -- Legacy
 minetest.register_alias("default:nyancat", "nyancat:nyancat")

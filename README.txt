@@ -7,6 +7,8 @@ Authors of source code
 Originally by celeron55, Perttu Ahola <celeron55@gmail.com> (LGPL 2.1)
 Various Minetest developers and contributors (LGPL 2.1)
 
+Modified by Cat5TV for TPS Servers to only include the nodes but not use them in worldgen. This way people who have nyan cats from previous Minetest builds can still have theirs, but new ones won't be generated.
+
 Authors of media files
 ----------------------
 VanessaE (CC BY-SA 3.0):
